@@ -12,3 +12,30 @@
     End of Naut
     Add your customizations and addons below!
 -------------------------------------------------------------------------- */
+
+.footer-parent {
+  height: inherit;
+  background: rgba(245, 245, 245, 0);
+  margin: 0;
+  padding: 0;
+}
+
+#header .pagename a {
+  color: #2ba0f3;
+}
+
+/* Snoo */
+#header-img.default-header, #header-img {
+  z-index: 99;
+  width: 0;
+  padding-left: 42px;
+  height: 42px;
+  background: url(%%spritesheet%%) -164px 0;
+  margin: 0 8px 0 0;
+  vertical-align: top;
+  font-size: 0;
+}
+
+#header-img.default-header:hover, #header-img:hover {
+  background-position: -206px 0;
+}
